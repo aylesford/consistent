@@ -1,13 +1,8 @@
-# consistent
-This package of `consistent` is the most concise and efficient algorithm of consistent hash based on golang.
-
-# Example
-Quick start:
-```go
 package main
 
 import (
 	"fmt"
+
 	"github.com/aylesford/consistent"
 )
 
@@ -25,5 +20,3 @@ func main() {
 		c.Get("FFFF"),
 	)
 }
-
-```
